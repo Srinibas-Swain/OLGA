@@ -1,0 +1,22 @@
+#include "gtest/gtest.h"
+#include "#{file_name}.hh"
+
+#include <iostream>
+
+class #{class_name}Test : public ::testing::Test {
+protected:
+  virtual void SetUp() {
+  }
+
+  virtual void TearDown() {
+    // Code here will be called immediately after each test
+    // (right before the destructor).
+  }
+};
+
+TEST_F(#{class_name}Test, TerminationTest) {
+  #{class_name}* #{object_name} = new #{class_name}();
+  //ASSERT_EQ(false, #{object_name});
+  delete(#{object_name});
+}
+

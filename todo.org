@@ -1,0 +1,23 @@
+
+* Tasks
+
+** Chromatic Index
+*** DONE if there is a unique max degree vertex, then the ci is max degree
+  CLOSED: [2016-03-16 Wed 23:13]
+*** for 4, 23 -> 20
+*** DONE for K_n, n or n-1 based on parity
+  CLOSED: [2016-03-17 Thu 03:03]
+*** TODO cache the certificates for <sz_vertices, graph_id>
+	 SCHEDULED: <2016-03-18 Fri>
+*** c++ better hashmap?
+	 SCHEDULED: <2016-03-17 Thu>
+*** TODO refactor the code
+	 SCHEDULED: <2016-03-26 Sat>
+
+** General
+*** TODO make graph function const or non-const
+	 SCHEDULED: <2016-04-01 Fri>
+*** TODO parallel-stuff
+	 SCHEDULED: <2016-04-06 Tue>
+**** TODO parallelize find-connected-graphs
+	 SCHEDULED: <2016-04-11 Mon>

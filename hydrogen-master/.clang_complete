@@ -1,0 +1,7 @@
+-I./include
+-I./3rd-party/backward-cpp
+-I/usr/local/include
+-I/usr/include
+-I/usr/include/eigen3
+-fopenmp
+-std=c++11

@@ -1,0 +1,36 @@
+#ifndef #{str_guard}
+#define #{str_guard}
+
+#include "menu_option.hh"
+#include "menu_option_helper.hh"
+
+#include "#{file_name[0..-8]}.hh"
+#include "utils.hh"
+
+//- other headers -- start
+//- other headers -- end
+
+namespace ga {
+	class #{class_name} : public MenuOptionHelper {
+	public:
+		#{class_name}(#{class_name[0..-7]}* <custom>_mo);
+		~#{class_name}();
+
+		void init(int n) override;
+		void process_graph(const Graph*);
+
+		//- public functions -- start
+		//- public functions -- end
+	  
+	private:
+		#{class_name[0..-7]}* <custom>_mo;
+
+		void init_for_graph(const Graph* graph);
+		
+		//- custom private -- start
+		//- custom private -- end
+	};
+}
+
+#endif /* #{str_guard} */
+

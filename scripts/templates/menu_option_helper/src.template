@@ -1,0 +1,39 @@
+#include "#{file_name}.hh"
+
+using namespace ga;
+
+//-- custom headers - start
+//-- custom headers - end
+
+#{class_name}::#{class_name}(#{class_name[0..-7]}* _<custom>_mo) {
+	<custom>_mo = _<custom>_mo;
+	//- custom -- start
+	
+	//- custom -- end
+}
+
+#{class_name}::~#{class_name}() {
+	//- custom deletions -- start
+	//- custom deletions -- end
+}
+
+void #{class_name}::init(int n)
+{
+	//- custom inits
+}
+
+
+void #{class_name}::process_graph(const Graph* graph)
+{
+	//- the actual logic of how to process this graph
+
+	init_for_graph(graph);
+}
+
+void #{class_name}::init_for_graph(const Graph* graph)
+{
+}
+
+//-- custom methods
+
+

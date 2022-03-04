@@ -1,0 +1,4 @@
+[submodule "3rd-party/backward-cpp"]
+	path = 3rd-party/backward-cpp
+	url = git@github.com:bombela/backward-cpp.git
+	ignore = dirty

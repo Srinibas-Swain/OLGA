@@ -1,0 +1,92 @@
+
+playground.cc,75
+void print(std::vector<int> myvector)print18,343
+int main ()main25,512
+
+src/test.hh,0
+
+src/graph.cc,352
+Graph::Graph(int _num_vertices) {Graph8,98
+Graph::Graph(string filename)Graph12,166
+void Graph::set_num_vertices(string line)set_num_vertices36,685
+int Graph::at(int row, int col)at42,780
+void Graph::read_adj_list(ifstream file)read_adj_list47,840
+void Graph::init_matrix(int num_vertices)init_matrix52,888
+Graph::~Graph() {~Graph62,1085
+
+src/split_and_update.hh,0
+
+src/graph.hh,124
+#define __GRAPH_HH__GRAPH_HH2,19
+class Graph {Graph9,108
+int num_vertices;num_vertices11,130
+MatrixXf mat;mat12,148
+
+src/partition.hh,117
+#define __PARTITION_HH__PARTITION_HH2,23
+class Partition {Partition10,109
+	vector<Block1*> blocks;blocks15,186
+
+src/Makefile,873
+NAME=hydrogenNAME2,1
+BANG-DIR=~/neo-human/programs/vanity-fairBANG-DIR7,184
+PROG-DIR=$(BANG-DIR)/hydrogenPROG-DIR8,226
+SRC=graph certificate partition blockSRC16,601
+SRC-CC=$(foreach src,$(SRC), $(src).cc)SRC-CC17,639
+SRC-HH =$(foreach src,$(SRC-CC),$(src:.cc=.hh))SRC-HH18,679
+SRC-OBJ=$(foreach src,$(SRC-CC),$(src:.cc=.o))SRC-OBJ19,727
+SRC-OBJ-DOT=$(foreach obj,$(SRC-OBJ),.$(obj))SRC-OBJ-DOT20,774
+CFLAGS=-Wall -std=c++11CFLAGS44,1837
+IPATH=-I/usr/local/include `pkg-config --cflags eigen3`IPATH45,1861
+LPATH=-L/usr/local/libLPATH46,1917
+LLIBS=-lmLLIBS47,1940
+CC=g++CC48,1950
+COMPILE=-g -c $(IPATH) $(CFLAGS)COMPILE57,2203
+COMPILE_FILE = $(CC) $(COMPILE) $(basename $(1)).cc -o .$(basename $(notdir $(1))).oCOMPILE_FILE58,2236
+BUILD=$(CC) $(LPATH) $(LLIBS) -o $(NAME)BUILD59,2321
+	valgrind --leak-check=full ./$(NAME)-leak-check64,2387
+
+src/certificate.hh,135
+#define __CERTIFICATE_HH__CERTIFICATE_HH2,25
+class Certificate {Certificate7,96
+	Graph *graph;graph9,124
+	Partition *L;L19,342
+
+src/block.cc,332
+Block1::Block1()Block16,63
+Block1::Block1(vector<int> _elements)Block110,85
+int Block1::size()size15,151
+void Block1::add_element(int element)add_element20,200
+int Block1::intersect(Graph* graph, int vertex)intersect25,273
+void Block1::print()print42,587
+void Block1::assign_by_copy(Block1 *block)assign_by_copy51,737
+
+src/block.hh,103
+#define __BLOCK_HH__BLOCK_HH2,19
+class Block1 {Block110,103
+	vector<int> elements;elements14,169
+
+src/certificate.cc,227
+Certificate::Certificate()Certificate8,90
+Partition* Certificate::split_update(Partition *B, int j,split_update13,124
+void Certificate::add_graph(Graph *g)add_graph63,1063
+Certificate::~Certificate()~Certificate68,1118
+
+src/test.cc,59
+Partition* fill_b()fill_b12,188
+int main() {main26,395
+
+src/partition.cc,600
+Partition::Partition()Partition8,69
+Partition::Partition(int size)Partition12,97
+Block1* Partition::at(int j)at22,260
+void Partition::set(int j, Block1 *block)set26,315
+void Partition::add_block(vector<int> _block)add_block30,362
+int Partition::num_blocks()num_blocks36,476
+int Partition::size()size40,531
+void Partition::increase(int m)increase44,580
+Partition::~Partition()~Partition49,643
+void Partition::shift(int j, int m)shift57,776
+void Partition::print()print69,1080
+bool Partition::valid(int j)valid77,1212
+void Partition::assign(int j, Block1 *block)assign82,1275

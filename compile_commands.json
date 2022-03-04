@@ -1,0 +1,202 @@
+[
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .welcome.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/welcome.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/welcome.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .partition.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/partition.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/partition.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .graph.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/graph.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/graph.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .certificate.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/certificate.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/certificate.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .block.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/block.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/block.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .permutation.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/permutation.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/permutation.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .utils.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/utils.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/utils.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .schreiersims.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/schreiersims.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/schreiersims.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .find_connected_graphs.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/find_connected_graphs.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/find_connected_graphs.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .frequent_induced_subgraph.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/frequent_induced_subgraph.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/frequent_induced_subgraph.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .combination_generator.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/combination_generator.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/combination_generator.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .iterator.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/iterator.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/iterator.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .combination_iterator.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/combination_iterator.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/combination_iterator.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .bool_iterator.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/bool_iterator.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/bool_iterator.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .vector_fixed.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/vector_fixed.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/vector_fixed.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .graph_pool.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/graph_pool.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/graph_pool.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .certificate_cache.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/certificate_cache.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/certificate_cache.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .menu_option.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/menu_option.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/menu_option.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .frequency_counter.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/frequency_counter.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/frequency_counter.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .all_max_induced_subgraphs.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/all_max_induced_subgraphs.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/all_max_induced_subgraphs.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .unique_certificates.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/unique_certificates.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/unique_certificates.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .csv_iterator.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/csv_iterator.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/csv_iterator.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .csv_row.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/csv_row.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/csv_row.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .pool.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/pool.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/pool.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .certificate_cache2.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/certificate_cache2.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/certificate_cache2.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .backward.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/backward.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/backward.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .aliases.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/aliases.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/aliases.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .bitmap.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/bitmap.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/bitmap.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .v_pool.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/v_pool.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/v_pool.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .generic_object.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/generic_object.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/generic_object.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .block_pool.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/block_pool.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/block_pool.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .blocks.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/blocks.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/blocks.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .partition_pool.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/partition_pool.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/partition_pool.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .permutation_pool.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/permutation_pool.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/permutation_pool.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .find_connected_graphs_omp.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/find_connected_graphs_omp.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/find_connected_graphs_omp.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .ncr.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/ncr.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/ncr.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .find_connected_components.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/find_connected_components.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/find_connected_components.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .chromatic_index.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/chromatic_index.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/chromatic_index.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .vector_int_pool.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/vector_int_pool.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/vector_int_pool.cc"
+    }, 
+    {
+        "command": "c++ -c -g -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include -I/home/dragon/neo-human/programs/vanity-fair/hydrogen/3rd-party/backward-cpp -I/usr/include -fopenmp -g -std=c++11 -Wall -Wunknown-pragmas -o .graph_counts.o /home/dragon/neo-human/programs/vanity-fair/hydrogen/src/graph_counts.cc", 
+        "directory": "/home/dragon/neo-human/programs/vanity-fair/hydrogen", 
+        "file": "/home/dragon/neo-human/programs/vanity-fair/hydrogen/src/graph_counts.cc"
+    }
+]

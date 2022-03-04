@@ -1,0 +1,104 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+#folders
+src/test
+#3rd-party
+target/
+
+
+# Executables
+*.exe
+*.out
+*.app
+welcome.dSYM/
+
+playground
+playground2
+playground3
+playground*
+connected
+compute_certificates
+all_max_induced_subgraphs
+welcome
+
+# LaTeX
+*.aux
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.jpg
+*.svg
+
+
+# project files
+*.pbxproj
+# gtags
+*.GPATH
+*.GRTAGS
+*.GTAGS
+GPATH
+GRTAGS
+GTAGS
+TAGS
+GSYMS
+
+#tests
+tests/test2
+tests/test_main
+
+# sublime workspace
+*.sublime-workspace
+
+# tmp files
+.*.o*
+.DS_Store
+*README.html
+
+# jupyter files
+*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/*
+*/*.html
+*.stfolder
+
+*pyc
+
+callgrind.out.*
+data/
+#validations/
+.ci_db.csv
+*bkp
+
+# graphviz files
+*.dot
+*.png
+*.gv
+
+# project files: idea
+*/.idea/*
+.idea
+
+

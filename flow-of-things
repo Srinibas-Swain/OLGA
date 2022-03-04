@@ -1,0 +1,47 @@
+
+
+
+chromatic_index.constructor
+  set title
+  set local variables
+  init_objects()
+    n = #threads
+    mo_helpers = (MenuOption**) malloc(n * sizeof(CIHelper*))
+    for mo_helper in mo_helpers
+      mo_helper = new CIHelper(this);
+
+chromatic_index.process
+  MenuOption.process
+    CI.init()
+      get_args_input(' ')
+      init-base-cases()
+      menu-option.init()
+        graph.init-upper-triangular
+        ncr.init(end*(end-1)/2) 
+        for mo-helper in mo-helpers
+          mo-helper.init
+            #graph-pool.init()
+            #vi-pool.init()
+  for n in start .. end:
+    init-for-new-n(n)
+      ci.init-for-new-n(n)
+        mo.init-for-new-n(n)
+          block-pool.init-pool(n)
+          partition-pool.init-pool(n)
+          permutation-pool.init-pool(n)
+    cert-done = NULL
+    graph-gen = new graph-gen(n, ncr)
+    omp-set-num-threads()
+    for ix-graph in range(graph-gen.num_graphs)
+      graph-seed = graph-gen.next()
+      graph-thread = graph-seed.sprout_graph(ncr)
+      if graph-thread.connected()
+        cert = mo-helper.generate-certificate(graph-thread)
+        cert-cache.save(graph-thread, cert)
+        if mo-helper[ix-thread].lock(certs-done, cert)
+          process-graph(graph-thread)
+            ci.process-graph(graph-thread)
+              cih[ix-thread].process-graph(graph-thread)
+  post-process
+    ci.post-process
+

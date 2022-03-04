@@ -1,0 +1,15 @@
+#ifndef #{str_guard}
+#define #{str_guard}
+
+namespace ga {
+  class #{class_name} {
+  public:
+    #{class_name}();
+    ~#{class_name}();
+  private:
+
+  };
+}
+
+#endif /* #{str_guard} */
+

@@ -1,0 +1,12 @@
+#include "#{file_name}.hh"
+
+using namespace ga;
+
+#{class_name}::#{class_name}() {
+
+}
+
+#{class_name}::~#{class_name}() {
+
+}
+
